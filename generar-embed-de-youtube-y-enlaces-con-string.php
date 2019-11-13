@@ -45,4 +45,5 @@ function formatearTextoDescripcion($texto) {
 
 $cadena_origen = 'Podría poner texto aquí https://www.youtube.com/watch?v=xV-V_wtv2lY y otros datos como http://www.facebook.com/';
 
+echo formatearTextoDescripcion($cadena_origen);
 ?>
