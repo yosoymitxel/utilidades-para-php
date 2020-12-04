@@ -1,3 +1,4 @@
+<?php
 function sc_arr_eliminar_repetidos($array1,$array2){
     $arrayValidar      = array_merge($array1,$array2);
     $arrayElementos    = array_unique(array_merge($array1,$array2));
